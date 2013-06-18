@@ -23,8 +23,8 @@ my $time = localtime;
 
 my %output;
 
-# Loop & Regex for matching game id and start
 # For 500,000 lines about 600 milisecs
+
 open my $infile, "<", $file_location or die("$!: $file_location");
 while (<$infile>) {
     if (/game_id:(\d+)\s*,\s*start/) {
