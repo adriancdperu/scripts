@@ -1,4 +1,4 @@
-scripts
+Scripts
 =======
 
 Common Perl scripts
