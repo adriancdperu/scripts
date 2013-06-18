@@ -1,4 +1,5 @@
 #!/usr/bin/perl
+
 use strict;
 use warnings;
 use POSIX 'strftime';
@@ -7,8 +8,10 @@ use FileHandle;
 use Carp;
 use Time::Local;
 
-my $home_dir = $ENV{"HOME"};
-my $log_dir = '/log';
+# divided the dir in 2:
+my $home_dir = $ENV{"HOME"}; # Your home dir, e.g. /home/adrian/
+my $log_dir = '/log'; # Your log dir, e.g. /var/log/ ...
+
 my $dirs = $home_dir . $log_dir;
 my $current_date = strftime "%Y%m%d", localtime;
 
