@@ -1,4 +1,4 @@
 Scripts
 =======
 
-Common Perl scripts
+Common Perl scripts for the everyday life
